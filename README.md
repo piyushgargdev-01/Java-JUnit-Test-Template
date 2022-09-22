@@ -54,7 +54,7 @@ class TestFile {
             Class classNameToTest = Class.forName("<Class Name Here>");
             Method methodToTest = classNameToTest.getMethod("< Method Name Here >"); // Optional: Add parameter types as second argument here
 
-            methodToTest.invoke(null, null); // Give arguments as an array in 2nd parameter
+            var returnedOutput = methodToTest.invoke(null, null); // Give arguments as an array in 2nd parameter
             
             String outputFromConsole = out.toString(); // Reads the output from the terminal
 
