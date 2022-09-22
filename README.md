@@ -49,7 +49,7 @@ class TestFile {
     public void test1() {
         try {
 
-            provideInput("3\n4\n5\n"); // Give multiple inputs to the user
+            // provideInput("3\n4\n5\n"); // Give multiple inputs to the user
             
             Class classNameToTest = Class.forName("<Class Name Here>");
             Method methodToTest = classNameToTest.getMethod("< Method Name Here >"); // Optional: Add parameter types as second argument here
