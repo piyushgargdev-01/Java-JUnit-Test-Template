@@ -55,6 +55,8 @@ class TestFile {
             Method methodToTest = classNameToTest.getMethod("< Method Name Here >"); // Optional: Add parameter types as second argument here
 
             methodToTest.invoke(null, null); // Give arguments as an array in 2nd parameter
+            
+            String outputFromConsole = out.toString(); // Reads the output from the terminal
 
             assertTrue(true); // Check for the expected output
 
