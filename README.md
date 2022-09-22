@@ -11,7 +11,7 @@ import java.io.ByteArrayOutputStream;
 import java.lang.reflect.Method;
 
 
-@TestMethodOrder(OrderAnnotation.class)
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 class TestFile {
 
     // IO Streams
